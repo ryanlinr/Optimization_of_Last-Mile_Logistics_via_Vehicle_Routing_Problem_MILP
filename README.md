@@ -1,6 +1,6 @@
 # Optimization of Last-Mile Logistics via Vehicle Routing Problem (MILP)
 
-## 📋 Overview
+## Overview
 
 This project addresses the optimization of last-mile delivery systems using advanced operations research techniques. We model the delivery problem as a **Vehicle Routing Problem (VRP)** and solve it using a **Mixed-Integer Linear Programming (MILP)** formulation implemented with Constraint Programming and Guided Local Search.
 
