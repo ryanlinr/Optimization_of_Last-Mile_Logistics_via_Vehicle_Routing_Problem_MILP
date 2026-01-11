@@ -4,11 +4,11 @@
 
 This project addresses the optimization of last-mile delivery systems using advanced operations research techniques. We model the delivery problem as a **Vehicle Routing Problem (VRP)** and solve it using a **Mixed-Integer Linear Programming (MILP)** formulation implemented with Constraint Programming and Guided Local Search.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Last-mile delivery is a critical and costly component of logistics operations. This project focuses on optimizing pharmaceutical distribution routes to minimize the number of vehicles required while satisfying all delivery constraints.
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: Real-world pharmaceutical distribution data
 - **Scope**: Multi-day operational planning
@@ -17,7 +17,7 @@ Last-mile delivery is a critical and costly component of logistics operations. T
   - Multi-day optimization
   - Variable demand scenarios (optimistic, pessimistic, most-likely)
 
-## 🔧 Methodology
+##  Methodology
 
 ### Approach
 - **Problem Formulation**: Mixed-Integer Linear Program (MILP)
