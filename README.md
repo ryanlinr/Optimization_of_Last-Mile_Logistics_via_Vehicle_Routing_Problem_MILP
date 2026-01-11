@@ -1,14 +1,14 @@
 # Optimization of Last-Mile Logistics via Vehicle Routing Problem (MILP)
 
-## 📋 Overview
+## Overview
 
 This project addresses the optimization of last-mile delivery systems using advanced operations research techniques. We model the delivery problem as a **Vehicle Routing Problem (VRP)** and solve it using a **Mixed-Integer Linear Programming (MILP)** formulation implemented with Constraint Programming and Guided Local Search.
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Last-mile delivery is a critical and costly component of logistics operations. This project focuses on optimizing pharmaceutical distribution routes to minimize the number of vehicles required while satisfying all delivery constraints.
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: Real-world pharmaceutical distribution data
 - **Scope**: Multi-day operational planning
@@ -17,7 +17,7 @@ Last-mile delivery is a critical and costly component of logistics operations. T
   - Multi-day optimization
   - Variable demand scenarios (optimistic, pessimistic, most-likely)
 
-## 🔧 Methodology
+## Methodology
 
 ### Approach
 - **Problem Formulation**: Mixed-Integer Linear Program (MILP)
@@ -29,7 +29,7 @@ Last-mile delivery is a critical and costly component of logistics operations. T
 - Constraint satisfaction for all delivery requirements
 - Scalable solution approach for real-world problem sizes
 
-## 📈 Results
+## Results
 
 Our computational experiments, spanning **nine days of operation**, demonstrated:
 
@@ -37,11 +37,11 @@ Our computational experiments, spanning **nine days of operation**, demonstrated
 - **Fleet Optimization**: Required only **3 to 4 vehicles** from the available fleet
 - **Successful Objective Achievement**: Fleet reduction was successfully prioritized through the minimization objective while satisfying all given constraints
 
-## 📚 Documentation
+## Documentation
 
 For detailed methodology, analysis, and results, please refer to the [Final Report](Report_final.pdf).
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Google OR-Tools**: Constraint programming and optimization solver
 - **Mixed-Integer Linear Programming (MILP)**: Problem formulation approach
