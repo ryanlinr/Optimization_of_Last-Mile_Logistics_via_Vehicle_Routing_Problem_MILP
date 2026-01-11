@@ -8,6 +8,44 @@ This project addresses the optimization of last-mile delivery systems using adva
 
 Last-mile delivery is a critical and costly component of logistics operations. This project focuses on optimizing pharmaceutical distribution routes to minimize the number of vehicles required while satisfying all delivery constraints.
 
+## Repository Structure
+
+- **[main/](main/)** - Contains all code implementations (Jupyter notebooks)
+  - `all_days.ipynb` - Multi-day optimization implementation
+  - `RVP.ipynb` - Single-day Vehicle Routing Problem solver
+  - `Optim&Pess.ipynb` - Optimistic vs Pessimistic scenario comparison
+  - `README.md` - Setup instructions and hyperparameters
+
+- **[data/](data/)** - Contains all datasets used in the experiments
+  - `all-days/` - Multi-day operation data (9 days)
+    - Distance matrices (Excel format)
+    - Order data (CSV format)
+    - Time matrices for most-likely scenarios
+  - `one-day/` - Single-day operation data
+    - Distance and time matrices (CSV format)
+    - Order data
+
+## Getting Started
+
+### Prerequisites
+
+Install the required dependencies:
+
+```bash
+pip install ortools
+```
+
+### Usage
+
+1. Navigate to the `main/` directory
+2. Open the desired Jupyter notebook:
+   - For single-day optimization: `RVP.ipynb`
+   - For multi-day optimization: `all_days.ipynb`
+   - For scenario comparison: `Optim&Pess.ipynb`
+3. Run the cells to execute the optimization
+
+Refer to `main/README.md` for detailed hyperparameter configuration.
+
 ## Dataset
 
 - **Source**: Real-world pharmaceutical distribution data
